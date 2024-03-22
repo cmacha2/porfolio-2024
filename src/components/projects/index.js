@@ -6,31 +6,43 @@ export default function Projects() {
       img: "/Rectangle 10097.png",
       title: "My Florida Lab",
       type: "Web Development",
+      link: "https://myfloridalab.com/",
+      github: ''
     },
     {
       img: "/Rectangle 10098.png",
       title: "Milazzo Jewelry",
       type: "Web Development",
+      link: "https://milazzojewelry.com/",
+      github: ''
     },
     {
       img: "/Rectangle 10100.png",
       title: "Migrant Us",
       type: "App Development",
+      link: "https://play.google.com/store/apps/details?id=com.cmacha2.migrantUS&hl=en_US",
+      github: 'https://github.com/cmacha2/Migrant-US'
     },
     {
       img: "/Rectangle 10102.png",
       title: "Script Music",
       type: "Web and App Development",
+      link: "https://www.youtube.com/watch?v=Og1z6ShsgMQ",
+      github: 'https://github.com/JaluGJ/ScriptMusic'
     },
     {
       img: "/Rectangle 10099.png",
       title: "Travel World",
       type: "React-Web Application",
+      link: "https://travel-world-app.vercel.app/",
+      github: 'https://github.com/cmacha2/client-countries-deploy'
     },
     {
       img: "/Rectangle 10101.png",
       title: "Movie Web",
       type: "Web Development",
+      link: "https://movie-api-pearl.vercel.app/",
+      github: 'https://github.com/cmacha2/movie-api'
     },
   ];
   return (
@@ -54,10 +66,17 @@ export default function Projects() {
             <div className="relative group">
               <img src={item?.img} alt="" className="w-[100%]" />
               <div className="hidden w-[82px] h-[82px] cursor-pointer rounded-full group-hover:flex justify-center items-center bg-[#8851F8] absolute top-[40%] left-[20%]">
+                <a  href={
+                  item.github
+                } >
+                  
                 <img src="/images 1.svg" alt="" />
+                </a>
               </div>
               <div className=" w-[82px] h-[82px] rounded-full cursor-pointer hidden group-hover:flex justify-center items-center bg-[#8851F8] absolute top-[40%] right-[20%]">
-                <p className="font-medium text-[20px]">View</p>
+                <a className="font-medium text-[20px]" href={
+                  item.link
+                }>View</a>
               </div>
             </div>
             <p className="text-[20px] font-bold mt-6 text-white">

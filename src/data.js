@@ -1,27 +1,28 @@
 export const FaqsData = [
   {
     id: "1",
-    question: "What is Narrow Protocol?",
-    ans: "Narrow Protocol aims to provide privacy to Launchpad and streamline access to billions of dollars in airdrop to its users. Narrow is the first project to bring this combined utility to crypto. Narrow will bring its powerful launchpad across several blockchains including Solana, BSC, and Eth.",
+    question: "How does the development process work?",
+    ans: "My development process is designed to be transparent and collaborative. I start with a detailed discussion about your requirements, followed by planning, development, testing, and deployment. Communication is key, and I ensure you're involved at every step.",
   },
   {
     id: "2",
-    question: "How do I get started with Narrow Protocol?",
-    ans: "Getting started with NarrowProtocol is easy. Once you have purchased your $Narrow Token - you'll have access to our Discover Airdrop tool, which will give you access to our dashboard of the latest airdrops and the steps required to start farming. We have locked in over 30 upcoming airdrops worth 10s of thousands of dollars for each user.",
+    question: "How long does it take to build a mobile application?",
+    ans: "The timeline for building a mobile application can vary based on its complexity, features, and design specifics. A simple app can take 3-4 months, while more complex applications may require 6-12 months. I strive to provide realistic timelines based on your project's needs.",
   },
   {
     id: "3",
-    question: "Is Narrow Protocol available on the Solana Network?",
-    ans: "Narrow Protocol is going to be launching on Solana Network in its initial phase, as well as the BSC chain. Other blockchains would be introduced to expand our network.",
+    question: "How much will my website cost?",
+    ans: "The cost of a website can vary significantly depending on the project's scope, including design, functionality, and content requirements. While a basic website might start at around $1,000, more intricate, feature-rich sites could significantly exceed that, depending on your specific needs. I offer a detailed quote after fully understanding the scope of your project to ensure transparent pricing.",
   },
   {
     id: "4",
-    question: "What is the Utility Behind Narrow Token?",
-    ans: "Our privacy-enabled launchpad which allows you to safely participate in IDOs and ICOs, as well as our Discover Airdrop platform are the utilities behind the Narrow Token. The narrow token ticker is $Narrow.",
+    question: "Can I see my website during the development process?",
+    ans: "Absolutely! I encourage feedback by providing access to a staging environment where you can see your website take shape in real-time. This ensures the final product aligns perfectly with your vision.",
   },
   {
     id: "5",
-    question: "What is the Discover Airdrops feature?",
-    ans: "Discover Airdrop is an industry-first utility that allows Narrow holders to find high-value airdrop opportunities before anyone else and gives them an advantage by showing the steps required to qualify for the airdrops. The Discover Airdrop is AI-led and has been tested to eradicate errors.",
+    question: "Will my website be mobile-friendly?",
+    ans: "Yes, making your website mobile-friendly is a top priority. I design and develop all websites with a responsive framework that automatically adjusts to fit the screen size of any device, ensuring an optimal viewing experience for all visitors.",
   },
+
 ];

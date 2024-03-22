@@ -15,12 +15,12 @@ function App() {
     {
       img: "/phone.svg",
       title: "Call",
-      des: "+1 234 567 8900",
+      des: "+1 786 681 9847",
     },
     {
       img: "/message.svg",
       title: "Email",
-      des: "info@yourmail.com",
+      des: "cmacha2.08@gmail.com",
     },
     {
       img: "/location.svg",
@@ -71,15 +71,15 @@ function App() {
             </div>
             <div>
               <p className="sm:text-[48px] text-[20px]  font-bold text-white text-center">
-                03
+                +2000
               </p>
               <p className="text-white sm:text-[18px] text-[8px] font-medium">
-                Total Degrees
+                Hours Worked
               </p>
             </div>
             <div>
               <p className="sm:text-[48px] text-[20px]  font-bold text-white text-center">
-                4+
+                2+
               </p>
               <p className="text-white sm:text-[18px] text-[8px] font-medium">
                 Years of Experience
@@ -112,7 +112,7 @@ function App() {
                 Client Reviews
               </p>
               <p className="sm:text-[40px] text-[24px] font-bold text-center sm:leading-[52px] leading-[31px]">
-                Customer Testimonials
+                Testimonials
               </p>
               <div className="xl:px-[123px] px-[20px] xl:pl-[123px] sm:pl-[80px] pl-[20px] mt-[50px] relative">
                 <Testimonials sliderRef={sliderRef} />
@@ -178,13 +178,13 @@ function App() {
               <div className="sm:flex  items-center justify-between w-[100%] h-[100%]">
                 <div>
                   <p className="sm:text-[40px] text-[32px] font-bold sm:text-start text-center text-white sm:leading-[52px] leading-[30px]">
-                    Interested in working with us?
+                    Interested in working with me?
                   </p>
                   <p className="text-[24px] font-medium text-white mt-[14px] sm:block hidden">
                     Book a free call
                   </p>
                 </div>
-                <div className="cursor-pointer bg-[#8851F8] w-fit sm:m-0 m-auto sm:px-[31px] px-[20px] sm:py-[22px] py-[18px] sm:mt-0 mt-6 font-medium rounded-lg flex justify-center items-center  text-white ">
+                <div onClick={()=>window.open('https://calendly.com/cmacha2/30min')} className="cursor-pointer bg-[#8851F8] w-fit sm:m-0 m-auto sm:px-[31px] px-[20px] sm:py-[22px] py-[18px] sm:mt-0 mt-6 font-medium rounded-lg flex justify-center items-center  text-white ">
                   Book Now
                 </div>
               </div>

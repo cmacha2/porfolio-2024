@@ -11,16 +11,16 @@ export default function About() {
       title: "React",
     },
     {
-      img: "/vue.svg",
-      title: "Vue.js",
+      img: "/nodejs.svg",
+      title: "NodeJS",
     },
     {
-      img: "/Vector12.svg",
-      title: "Laravel",
+      img: "/postgresql.svg",
+      title: "PSQL",
     },
     {
-      img: "/php-1.svg",
-      title: "php",
+      img: "/aws.svg",
+      title: "AWS",
     },
   ];
   return (
@@ -39,15 +39,13 @@ export default function About() {
         <div>
           <div className="2xl:max-w-[100%] lg:max-w-[466px] w-[100%]">
             <p className="sm:text-[20px] text-[14px] sm:font-semibold font-medium text-[#8851F8] lg:text-start text-center">
-              About Us
+              About Me
             </p>
             <p className="sm:text-[40px] text-[24px] font-bold text-white sm:leading-[52px] leading-[31px] mt-3 sm:text-start text-center">
-              Transform your ideas into digital masterpieces
+            Turning Visions into Virtuality
             </p>
             <p className="text-[#F3F3F5] mt-[18px] sm:text-base text-[14px] sm:text-start text-center">
-              We are passionate software developers developing exceptional
-              digital experiences. We use agile and cutting-edge technologies to
-              realize ideas.{" "}
+            With a blend of innovation and precision, I craft web solutions that bring your ideas to life. In every project, I infuse my dedication to creating digital experiences that resonate and engage.{" "}
             </p>
           </div>
 

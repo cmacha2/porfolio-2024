@@ -3,6 +3,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
+
 export default function Testimonials({ sliderRef }) {
   const settings = {
     dots: false,
@@ -43,20 +44,54 @@ export default function Testimonials({ sliderRef }) {
   };
   const discoverArray = [
     {
-      img: "/image-1.png",
-      title: "CryptoGenius",
-      des: "Learn about this project and discover the requirements to participate in their airdrop. Don't miss out on this limited-time opportunity!",
+      image:'/wilma-pic.jpeg',
+      name: "Wilma Alvarez",
+      review: "Working with Cristian was a game-changer. His tailored web solutions and sharp marketing strategies significantly amplified my client engagement.",
+      clientType: "Client",
     },
     {
-      img: "/5.png",
-      title: "EtherVibes",
-      des: "Discover EtherVibes, the second featured airdrop. Learn about the project and find out how you can get involved.",
+      image: "/tato.png",
+      name: "Gustavo Garcia",
+      review: "Cristian elevated our e-commerce platform with bespoke customization, skillfully enhancing management, service, and showing great adaptability.",
+      clientType: "Client",
     },
     {
-      img: "/6.png",
-      title: "QuantumMesh",
-      des: "Delve into QuantumMesh, the third featured airdrop. Explore the details of the project and follow the steps to start earning tokens.",
+      image: "/hablarconsentido.jpeg",
+      name: "Ricardo Gutierrez",
+      review: "Post-Cristian, My Florida Lab's e-commerce transformed—visually stunning, highly versatile, and adaptable. A real, impactful game-changer for us",
+      clientType: "Client",
     },
+    {
+      image: "/hori.jpeg",
+      name: "Horacio Rodriguez",
+      review:"Cristian is incredibly versatile. Working alongside him brings a lot of confidence and solidity to the projects he is involved in.",
+      clientType: "Colleague",
+    },
+    {
+      image: "/enzo.jpeg",
+      name: "Enzo Dos Santos",
+      review: "Cristian always stood out for his great desire to move forward, he is a very admirable person and a good colleague, he was an essential piece in our team.",
+      clientType: "Colleague",
+    },
+    {
+      image: "/ivan.jpeg",
+      name: "Ivan Reyes",
+      review: "If there's one thing I applaud Cristian for, it's his perseverance in solving project problems. He has high empathy and teamwork skills. I'm sure his Front-End development ability will take him far.",
+      clientType: "Colleague",
+    },
+    {
+      image: "/facundo.jpeg",
+      name: "Facundo Ortiz",
+      review: "Cristian always aims beyond. His relentless desire to learn and surpass himself exemplifies perseverance. An excellent team player, I learned much from him.",
+      clientType: "Colleague",
+    },
+    {
+      image: "/jalu.jpeg",
+      name: "Gabriel Jalil",
+      review: "Cristian's dedication and learning capacity exceed all expectations. His hunger for knowledge and coding logic accelerate projects. Reliable and kind, he's highly recommended for teamwork."
+      ,
+      clientType: "Colleague",
+    }
   ];
   return (
     <div className="w-[100%]">
@@ -119,15 +154,14 @@ export default function Testimonials({ sliderRef }) {
               </svg>
             </div>
             <p className=" mt-3 text-[#CFD1D9] text-center">
-              It is a long established fact that a reader will be distracted by
-              the readable content of a page when looking at its layout
+              {item.review}
             </p>
-            <img src="/Image.png" alt="" className="m-auto mt-[24px]" />
+            <img  src={item.image} alt=""  className="w-12 h-12 rounded-full object-cover m-auto mt-6"/>
             <p className="text-center text-white text-[18px] font-semibold mt-3">
-              James L. Stewart
+              {item.name}
             </p>
             <p className="text-center text-[#CFD1D9] text-[14px]  mt-2">
-              Client
+              {item.clientType}
             </p>
           </div>
         ))}

@@ -6,7 +6,7 @@ export default function Footer() {
       <div className="md:flex justify-between xl:px-[123px] px-[20px]  m-auto">
         <div className="max-w-[283px] w-[100%] md:m-0 m-auto">
           <p className="sm:text-[50px] text-[24px] font-bold md:text-start text-center">
-            Logo
+          <img src="/logo.svg" alt="" />
           </p>
           <p className="mt-[20px] text-[#E7E8EC] sm:text-base text-[14px] md:text-start text-center ">
             Creating and producing work we are proud of for people we care about
@@ -32,16 +32,25 @@ export default function Footer() {
             Navigation
           </p>
           <p className="mt-[40px] text-[#E7E8EC] sm:text-start text-center">
-            About Us
+            <a href="#about">
+            About Me
+            </a>
           </p>
           <p className="mt-[20px] text-[#E7E8EC] sm:text-start text-center">
+            <a href="#services">
             Service
+            </a>
           </p>
           <p className="mt-[20px] text-[#E7E8EC] sm:text-start text-center">
+            <a href="#portfolio">
+
             Portfolio
+            </a>
           </p>
           <p className="mt-[20px] text-[#E7E8EC] sm:text-start text-center">
+            <a href="#contect">
             Contact
+            </a>
           </p>
         </div>
         <div className="pt-[20px] md:m-0 m-auto max-w-[149px] w-[100%]">
@@ -55,7 +64,7 @@ export default function Footer() {
             App Development
           </p>
           <p className="mt-[20px] text-[#E7E8EC] sm:text-start text-center">
-            Game Development
+            Automations
           </p>
         </div>
         <div className="pt-[20px] md:m-0 m-auto max-w-[225px] w-[100%]">
@@ -63,13 +72,13 @@ export default function Footer() {
             Contact
           </p>
           <p className="mt-[40px] text-[#E7E8EC] sm:text-start text-center">
-            +1 703.000.000
+            +1 786 681 9847
           </p>
           <p className="mt-[20px] text-[#E7E8EC] sm:text-start text-center">
-            info@websitename.com
+            cmacha2.08@gmail.com
           </p>
           <p className="mt-[20px] text-[#E7E8EC] sm:text-start text-center">
-            4256 Westfall Avenue Owatonna, MN 55060
+            Hialeah, FL, 33010
           </p>
         </div>
       </div>

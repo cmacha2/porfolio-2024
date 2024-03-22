@@ -5,17 +5,17 @@ export default function Services() {
     {
       img: "/Frame.svg",
       title: "Web Development",
-      des: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      des: "Your website is more than just a digital space—it's a reflection of your brand's identity and vision. Our web development ensures your site is compelling, functional, and designed for the modern user.",
     },
     {
       img: "/Frame123.svg",
       title: "App Development",
-      des: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      des: "Bring your app concept to life with our expertise. We craft engaging, smooth-running applications poised for success in today’s competitive digital market.",
     },
     {
       img: "/Frame1234.svg",
-      title: "Game Development",
-      des: "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.",
+      title: "Automations",
+      des: "Effortlessly automate and streamline your web processes with our tailored Puppeteer solutions. Boost efficiency and accuracy for a smarter workflow.",
     },
   ];
   return (
@@ -25,7 +25,7 @@ export default function Services() {
           My Services
         </p>
         <p className="sm:text-center text-white sm:text-[40px] text-[24px] font-bold sm:mt-[12px] mt-[4px]">
-          The services i provide
+          The services I provide
         </p>
         <p className="sm:text-center text-[#F3F3F5] sm:text-base text-[14px] sm:mt-[18px] mt-[12px]">
           Your Ideas Need Top-Tier Development with Quality Code and
@@ -44,7 +44,7 @@ export default function Services() {
             <p className="text-[white] sm:text-base text-[14px]">{item?.des}</p>
             <div className="flex items-center sm:mt-[18px] mt-[15px]">
               <p className="font-medium sm:text-base text-[14px] text-white group-hover:text-[#A074F9]">
-                Learn More
+                Learn More - Contat Me
               </p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
