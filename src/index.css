@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+color: white;
+background-color: #111728 !important;
+}
+html{
+  scroll-behavior: smooth !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.my-slider > .slick-cloned > div{
+display: flex !important;
+width: 100% !important;
+}
+.contactForm{
+  background-image: url(/public/Background1.png);
+}
+.booknow{
+  background-image: url(/public/Booknow.png);
+}
+.main-bg{
+  background-image: url(/public/home1.jpg);
+}
+
+@media (max-width:600px) {
+  .contactForm{
+    background-image: none;
+  }
+  .booknow{
+    background-image: url(/public/Booknow1.png);
+  }
+  .main-bg{
+    background-image: url(/public/iPhone\ 8\ -\ 1.jpg);
+  }
+}
