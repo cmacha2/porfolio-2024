@@ -2,17 +2,18 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className=" text-[#FFFFFF]">
-      <div className="md:flex justify-between xl:px-[123px] px-[20px]  m-auto">
-        <div className="max-w-[283px] w-[100%] md:m-0 m-auto">
-          <p className="sm:text-[50px] text-[24px] font-bold md:text-start text-center">
-          <img src="/logo.svg" alt="" />
-          </p>
-          <p className="mt-[20px] text-[#E7E8EC] sm:text-base text-[14px] md:text-start text-center ">
+    <div className="text-[#FFFFFF]">
+      <div className="md:flex justify-between xl:px-[123px] px-[20px] m-auto">
+        <div className="flex flex-col items-center max-w-[283px] w-full md:items-start md:m-0 m-auto">
+          {/* Ajuste aplicado aquí para centrar el logo en dispositivos móviles */}
+          <div className="sm:text-[50px] text-[24px] font-bold w-full flex justify-center md:justify-start">
+            <img src="/logo.svg" alt="" />
+          </div>
+          <p className="mt-[20px] text-[#E7E8EC] sm:text-base text-[14px] text-center">
             Creating and producing work we are proud of for people we care about
             is what we do together.
           </p>
-          <div className="flex items-center w-[156px] justify-between  pt-[30px] sm:m-0  m-auto">
+          <div className="flex items-center w-[156px] justify-between pt-[30px] sm:m-0 m-auto">
             <div className="w-[30px] h-[30px] rounded-full bg-[#8851F8] flex justify-center items-center">
               <img src="/Mask group.svg" alt="" />
             </div>
@@ -32,25 +33,16 @@ export default function Footer() {
             Navigation
           </p>
           <p className="mt-[40px] text-[#E7E8EC] sm:text-start text-center">
-            <a href="#about">
-            About Me
-            </a>
+            <a href="#about">About Me</a>
           </p>
           <p className="mt-[20px] text-[#E7E8EC] sm:text-start text-center">
-            <a href="#services">
-            Service
-            </a>
+            <a href="#services">Service</a>
           </p>
           <p className="mt-[20px] text-[#E7E8EC] sm:text-start text-center">
-            <a href="#portfolio">
-
-            Portfolio
-            </a>
+            <a href="#portfolio">Portfolio</a>
           </p>
           <p className="mt-[20px] text-[#E7E8EC] sm:text-start text-center">
-            <a href="#contect">
-            Contact
-            </a>
+            <a href="#contact">Contact</a>
           </p>
         </div>
         <div className="pt-[20px] md:m-0 m-auto max-w-[149px] w-[100%]">

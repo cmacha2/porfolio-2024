@@ -51,33 +51,20 @@ export default function Projects() {
         My Projects
       </p>
       <div className="flex justify-between items-center">
-        <div className="max-w-[424px] w-[100%]">
-          <p className="sm:text-[40px] text-[24px] font-bold text-white sm:leading-[52px] leading-[31px] sm:mt-3 mt-2">
-            Here are some successful projects
-          </p>
-        </div>
-        <div className="px-[30px] py-[16px] text-[#8851F8] cursor-pointer border border-[#8851F8] rounded-lg h-fit sm:block hidden">
-          View More
-        </div>
+        {/* ... */}
       </div>
       <div className="grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 sm:mt-[50px] mt-[40px] sm:gap-7 gap-4">
         {projects.map((item) => (
-          <div className="">
-            <div className="relative group">
-              <img src={item?.img} alt="" className="w-[100%]" />
-              <div className="hidden w-[82px] h-[82px] cursor-pointer rounded-full group-hover:flex justify-center items-center bg-[#8851F8] absolute top-[40%] left-[20%]">
-                <a  href={
-                  item.github
-                } >
-                  
-                <img src="/images 1.svg" alt="" />
-                </a>
-              </div>
-              <div className=" w-[82px] h-[82px] rounded-full cursor-pointer hidden group-hover:flex justify-center items-center bg-[#8851F8] absolute top-[40%] right-[20%]">
-                <a className="font-medium text-[20px]" href={
-                  item.link
-                }>View</a>
-              </div>
+          <div className="group relative">
+            <img src={item?.img} alt={item?.title} className="w-full" />
+            <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-50 transition-opacity duration-300 ease-in-out"></div>
+            <div className="hidden absolute inset-0 flex justify-around items-center group-hover:flex">
+              <a href={item.github} className="flex justify-center items-center w-[82px] h-[82px] rounded-full bg-[#8851F8]">
+                <img src="/images 1.svg" alt="GitHub" />
+              </a>
+              <a href={item.link} className="flex justify-center items-center w-[82px] h-[82px] rounded-full bg-[#8851F8] text-white font-medium text-[20px]">
+                View
+              </a>
             </div>
             <p className="text-[20px] font-bold mt-6 text-white">
               {item.title}

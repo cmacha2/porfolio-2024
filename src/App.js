@@ -103,34 +103,36 @@ function App() {
             <Projects />
           </div>
 
-          <div className="sm:mt-[70px] mt-[60px]">
-            <div
-              className="bg-no-repeat 2xl:py-[200px]  sm:py-[160px] py-[60px] bg-cover max-w-[1600px]"
-              style={{ backgroundImage: "url(/bg123.png)" }}
-            >
-              <p className="text-[20px] font-semibold text-[#8851F8] text-center">
-                Client Reviews
-              </p>
-              <p className="sm:text-[40px] text-[24px] font-bold text-center sm:leading-[52px] leading-[31px]">
-                Testimonials
-              </p>
-              <div className="xl:px-[123px] px-[20px] xl:pl-[123px] sm:pl-[80px] pl-[20px] mt-[50px] relative">
-                <Testimonials sliderRef={sliderRef} />
-                <div
-                  onClick={handlePrev}
-                  className="bg-[#8851F8] py-[10px] rounded w-fit absolute top-[50%] xl:left-[80px] left-2 cursor-pointer"
-                >
-                  <img src="/angle-left.svg" alt="" />
-                </div>
-                <div
-                  onClick={handleNext}
-                  className="bg-[#8851F8] py-[10px] rounded w-fit absolute top-[50%] xl:right-[120px] right-2 cursor-pointer"
-                >
-                  <img src="/angle-right.svg" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
+          <div className="mt-[60px] sm:mt-[70px] mx-auto">
+  <div
+    className="bg-no-repeat bg-cover py-[60px] sm:py-[160px] 2xl:py-[200px] max-w-[1600px] mx-auto"
+    style={{ backgroundImage: "url(/bg123.png)" }}
+  >
+    <p className="text-[20px] font-semibold text-[#8851F8] text-center">
+      Client Reviews
+    </p>
+    <p className="sm:text-[40px] text-[24px] font-bold text-center sm:leading-[52px] leading-[31px]">
+      Testimonials
+    </p>
+    <div className="xl:px-[123px] px-[20px] xl:pl-[123px] sm:pl-[80px] pl-[20px] mt-[50px] relative">
+      <Testimonials sliderRef={sliderRef} />
+      <div
+        onClick={handlePrev}
+        className="bg-[#8851F8] py-[10px] rounded w-fit absolute top-[50%] xl:left-[80px] left-2 cursor-pointer"
+      >
+        <img src="/angle-left.svg" alt="" />
+      </div>
+      <div
+        onClick={handleNext}
+        className="bg-[#8851F8] py-[10px] rounded w-fit absolute top-[50%] xl:right-[120px] right-2 cursor-pointer"
+      >
+        <img src="/angle-right.svg" alt="" />
+      </div>
+    </div>
+  </div>
+</div>
+
+
 
           <div className="xl:px-[123px] px-[20px]">
             <p className="sm:text-[48px] text-[24px] font-bold text-white text-center 2xl:mt-[200px] sm:mt-[120px] mt-[80px]">
