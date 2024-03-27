@@ -20,7 +20,7 @@ export default function Hero() {
           </p>
           <div className="flex mt-[30px]" >
             <div className="sm:w-[194px] w-[116px] sm:h-[56px] h-[36px]  sm:text-base text-[9px] text-[#FCFCFD] rounded-[5px] bg-[#8851F8] flex justify-center items-center " onClick={()=>
-                window.open('https://www.dropbox.com/scl/fi/gp7o3ad0kx3gpymfp9mbb/Cristian-Machado-Full-Stack-2024.pdf?rlkey=6skjl0epvo0f00hbac7i20rc7&dl=0')
+                window.open('https://www.dropbox.com/scl/fi/nva5g02av7f6xhvcsz45t/Cristian-Machado-2024-CV-Developer.pdf?rlkey=yyy0l1n78om4lrzqnnrugk78j&dl=0')
               }>
               <img
                 src="/Download.svg"
